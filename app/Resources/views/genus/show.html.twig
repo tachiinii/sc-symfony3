@@ -34,7 +34,7 @@
 
     <script type="text/babel">
 
-        const notesUrl = '{{ path('genus_show_notes', {'genusName': genus.name}) }}'
+        const notesUrl = '{{ path('genus_show_notes', {'name': genus.name}) }}'
 
         ReactDOM.render(
           <NoteSection url={notesUrl} />,
